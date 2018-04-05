@@ -19,10 +19,10 @@
     "json"
   ],
   "moduleNameMapper": {
-    "^src/(.*)": "<rootDir>/src/$1",
-    "^app/(.*)": "<rootDir>/src/app/$1",
-    "^assets/(.*)": "<rootDir>/src/assets/$1",
-    "^environments/(.*)": "<rootDir>/src/environments/$1"
+    "^src/(.*)": "<rootDir>/client/src/$1",
+    "^app/(.*)": "<rootDir>/client/src/app/$1",
+    "^assets/(.*)": "<rootDir>/client/src/assets/$1",
+    "^environments/(.*)": "<rootDir>/client/src/environments/$1"
   },
   "transformIgnorePatterns": [
     "node_modules/(?!@ngrx)"

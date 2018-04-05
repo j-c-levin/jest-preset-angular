@@ -1,6 +1,6 @@
 {
   "name": "holitionfork-jest-preset-angular",
-  "version": "5.2.2",
+  "version": "5.2.3",
   "description": "Jest preset configuration for Angular projects",
   "main": "index.js",
   "repository": "https://github.com/j-c-levin/jest-preset-angular.git",
