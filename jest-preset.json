@@ -19,6 +19,9 @@
     "json"
   ],
   "moduleNameMapper": {
+    "^@core(.*)": "<rootDir>/client/src/app/core/$1",
+    "^@mirror/(.*)": "<rootDir>/client/src/app/+magic-mirror/$1",
+    "^@shared(.*)": "<rootDir>/client/src/app/shared/$1",
     "^src/(.*)": "<rootDir>/client/src/$1",
     "^app/(.*)": "<rootDir>/client/src/app/$1",
     "^assets/(.*)": "<rootDir>/client/src/assets/$1",
